@@ -1,0 +1,42 @@
+*{
+    background-color:rgb(255, 234, 195);
+}
+
+.align{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.head1{
+    font-family:'Courier New', monospace;
+    font-weight:bold;
+    font-size:65px;
+    text-align:center;
+}
+
+h2{
+
+    margin-top:5%;
+    margin-bottom:5%;
+    font-size:35px;
+    color:#086b7c;
+}
+
+body{
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+    font-size:18px;
+}
+
+.list{
+    margin-left:35%;
+    text-align:left
+}
+
+.but{
+    margin-top:5%;
+    background-color:orange;
+}
