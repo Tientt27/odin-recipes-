@@ -5,6 +5,12 @@ div {
     font-weight:bold;
 }
 
+ul{
+
+    list-style: none;
+    text-align:center;
+}
+
 body {
     color:rgb(255, 123, 0);
     
@@ -14,6 +20,7 @@ button{
     font-size:25px;
     text-align:inherit;
     background-color:rgb(241, 177, 116)
+    
 }
 
 /**{
