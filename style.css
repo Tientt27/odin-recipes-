@@ -2,16 +2,37 @@
     box-sizing: border-box;
 }
 
+
+html{
+    background-color: #F1F7EE;
+}
+
+body{
+    overflow: hidden;
+}
+
 @font-face{
     font-family: dafont;
     src: url(recipes/fonts/ChibaScript.ttf);
 }
+
+@font-face{
+    font-family: litext;
+    src: url(recipes/fonts/Mont-HeavyDEMO.otf)
+}
+
 .title{
     padding: 40px;
     text-align: center;
-    font-size: 90px;
-    margin-top:100px;
+    font-size: 160px;
+    margin-top: 30px;
     font-family: dafont;
+    color: #19323C;
+    
+}
+
+#ktsdon{
+    margin-bottom: 30px;
 }
 
 .recipes{
@@ -22,7 +43,7 @@
 .orderecp{
     margin-right: auto;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom: 0px;
 }
 
 @keyframes uppertxt{
@@ -36,11 +57,35 @@
 }
 
 .mvtext{
+    display: inline-block;
     position:relative;
     animation: move-words linear;
     animation-duration: 10s;
     animation-name: uppertxt;
     animation-iteration-count: infinite;
-
+    margin: 0;
+    color: #96031A;
+    font-family: litext;
+    font-size: 20px;
+    margin-top: 6px;
 }
 
+.mvtext2{
+    animation-delay: 2.5s;
+    
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform:scale(1.2);
+}
+
+.downblck{
+    background-color: #78091B;
+    padding: 100px 100% ;
+    margin-left: -10px;
+    margin-top: -70px;
+}
